@@ -12,7 +12,6 @@ Ext.define('CustomApp', {
                 attribute: "ScheduleState",
                 cardConfig: {
                     xtype: 'customcard',
-                    cls: "Panda"
                 }
             };
     
