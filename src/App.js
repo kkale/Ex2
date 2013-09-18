@@ -6,5 +6,16 @@ Ext.define('CustomApp', {
     },
 
     launch: function() {
+            var cardBoardConfig = {
+                xtype: 'rallycardboard',
+                types: ['User Story', 'Defect'],
+                attribute: "ScheduleState",
+                cardConfig: {
+                    xtype: 'customcard',
+                    cls: "Panda"
+                }
+            };
+    
+            this.add(cardBoardConfig);
     }
 });
